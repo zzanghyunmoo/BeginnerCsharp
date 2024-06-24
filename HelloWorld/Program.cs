@@ -13,6 +13,7 @@ namespace HelloWorld
             long l = 0l; // 64bit
             float f = 0f; // 32bit
             double d = 0d; // 64bit
+            char c = 'a'; // 8bit
         }
     }
 }
