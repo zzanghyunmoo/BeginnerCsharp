@@ -13,7 +13,8 @@ namespace HelloWorld
         // 코드와 관련된 내용을 메모할 때 사용. 컴파일 할 때 무시되는 문장. // /* */ 로 달 수 있음.
         static void Main(string[] args)
         {
-            // (...) 에서 ...은 상수! 
+            // (...) 에서 ...은 리터럴 상수! 
+            // constant? 절대 변하지 않는 값. 숫자 뿐 아니라 문자까지 포함.
             Console.Write(30);        // int
             Console.WriteLine(30.1);  // double
             Console.WriteLine(30.2f); // float
