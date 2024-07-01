@@ -6,9 +6,9 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            int num = 100000;
-            long num2 = num;
-            Console.WriteLine(num2);
+            int num1 = 1234567890;
+            float num2 = num1;
+            Console.WriteLine(num1 - (int)num2);
         }
     }
 }
